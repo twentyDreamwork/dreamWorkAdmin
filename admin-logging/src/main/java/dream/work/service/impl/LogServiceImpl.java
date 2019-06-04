@@ -1,26 +1,19 @@
 package dream.work.service.impl;
 
-import cn.hutool.core.lang.Dict;
-import cn.hutool.json.JSONObject;
-<<<<<<< HEAD:eladmin-logging/src/main/java/me/zhengjie/service/impl/LogServiceImpl.java
-import me.zhengjie.domain.Log;
-import me.zhengjie.repository.LogRepository;
-import me.zhengjie.service.LogService;
-=======
-import dream.work.domain.Log;
-import dream.work.repository.LogRepository;
-import dream.work.service.LogService;
-import dream.work.utils.RequestHolder;
-import dream.work.utils.SecurityUtils;
-import dream.work.utils.StringUtils;
->>>>>>> dreamWorkAdmin init:admin-logging/src/main/java/dream/work/service/impl/LogServiceImpl.java
+import java.lang.reflect.Method;
+
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.reflect.MethodSignature;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
-import java.lang.reflect.Method;
+
+import cn.hutool.core.lang.Dict;
+import cn.hutool.json.JSONObject;
+import dream.work.domain.Log;
+import dream.work.repository.LogRepository;
+import dream.work.service.LogService;
 
 /**
  * @author jie

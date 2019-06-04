@@ -1,18 +1,5 @@
 package dream.work.aspect;
 
-import lombok.extern.slf4j.Slf4j;
-<<<<<<< HEAD:eladmin-logging/src/main/java/me/zhengjie/aspect/LogAspect.java
-import me.zhengjie.domain.Log;
-import me.zhengjie.exception.BadRequestException;
-import me.zhengjie.service.LogService;
-import me.zhengjie.utils.RequestHolder;
-import me.zhengjie.utils.SecurityUtils;
-import me.zhengjie.utils.StringUtils;
-import me.zhengjie.utils.ThrowableUtil;
-=======
-import dream.work.exception.BadRequestException;
-import dream.work.utils.ThrowableUtil;
->>>>>>> dreamWorkAdmin init:admin-logging/src/main/java/dream/work/aspect/LogAspect.java
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.AfterThrowing;
@@ -22,12 +9,13 @@ import org.aspectj.lang.annotation.Pointcut;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-<<<<<<< HEAD:eladmin-logging/src/main/java/me/zhengjie/aspect/LogAspect.java
-import javax.servlet.http.HttpServletRequest;
-=======
 import dream.work.domain.Log;
 import dream.work.service.LogService;
->>>>>>> dreamWorkAdmin init:admin-logging/src/main/java/dream/work/aspect/LogAspect.java
+import dream.work.utils.RequestHolder;
+import dream.work.utils.SecurityUtils;
+import dream.work.utils.StringUtils;
+import dream.work.utils.ThrowableUtil;
+import lombok.extern.slf4j.Slf4j;
 
 /**
  * @author jie

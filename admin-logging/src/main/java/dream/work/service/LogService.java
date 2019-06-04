@@ -3,12 +3,8 @@ package dream.work.service;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.springframework.scheduling.annotation.Async;
 
-<<<<<<< HEAD:eladmin-logging/src/main/java/me/zhengjie/service/LogService.java
-import javax.servlet.http.HttpServletRequest;
-=======
 import dream.work.domain.Log;
->>>>>>> dreamWorkAdmin init:admin-logging/src/main/java/dream/work/service/LogService.java
-
+	
 /**
  * @author jie
  * @date 2018-11-24
