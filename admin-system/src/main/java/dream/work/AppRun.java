@@ -26,5 +26,5 @@ public class AppRun {
     @Bean
     public SpringContextHolder springContextHolder() {
         return new SpringContextHolder();
-    }
+    } 
 }
